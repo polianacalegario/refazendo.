@@ -1,0 +1,54 @@
+/* Reset básico para remover margens e padding padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f4e3; /* Cor de fundo pastel */
+    color: #333; /* Cor do texto */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #6a5d55; /* Cor pastel para o título */
+}
+
+article {
+    background-color: #fff; /* Fundo branco para o artigo */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+article h2 {
+    color: #6a5d55; /* Cor pastel para o título do post */
+}
+
+article p {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    color: #6a5d55; /* Cor pastel para o texto do rodapé */
+}
