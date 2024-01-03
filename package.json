@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "name": "refazendo.",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
